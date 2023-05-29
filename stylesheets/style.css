@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Quando&display=swap');
+
+* {
+    font-family: 'Lora', serif;
+    background-color: white;
+}
+
+h1 {
+    font-family: Georgia, serif;
+}
+    
+h2 {
+    font-family: Times New Roman, serif;
+}
+  
+a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.image{
+    border: 1pt solid black;
+    padding: 1.1rem;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2px;
+}
+        
+
