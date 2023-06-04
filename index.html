@@ -12,115 +12,172 @@
 <header>
     <h1>Curriculum Vitae</h1>
 </header>
+<div class="flex-container">
 <main>
-    <section id:"info">
-        <h2>My personal information</h2>
-        <img class="image" src="https://placehold.co/40x60">
-        <table border="1">
-            <tr>
-                <th>Name:</th>
-                <td>Meiyin Chang Rizzo</td>
-            </tr>
-            <tr>
-                <th>Email:</th>
-                <td>mmchang@espol.edu.ec </td>
-            </tr>        
-            <tr>
-                <th>Phone:</th>
-                <td>0999888875</td>
-            </tr>
+    <div class="flex-item col1">
+        <section id:"image">          
+            <img class="image" src="https://placehold.co/40x60">
+        </section>
+    </div>
+    <div class="flex-item col2">
+    </div>
+    <div class="flex-item alinear-izquierda col3">
+        <section id="info">
+            <h2 id="name"><span style="color:#c17bc1">MEIYIN  </span><span> CHANG</span></h2>
+            <h3>COMPUTER SCIENCE STUDENT</h3>
+        </section>
+    </div>
+    <div class="flex-item">
+            <table style="color-scheme: #990073;">
+                <tr>
+                    <th>Email:</th>
+                    <td>mmchang@espol.edu.ec </td>
+                </tr>        
+                <tr>
+                    <th>Phone:</th>
+                    <td>0999888875</td>
+                </tr>
+                <tr>
+                    <th>Live in:</th>
+                    <td>Guayaquil, Ecuador</td>
+                </tr>
             </table>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <ul>
-            <li>2020-Currently attending</li>
+        <section>
+            <h2>Technical Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>Basic Shell programming</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Language Skills</h2>
+            <ul>
+                <li>Spanish</li>
+                <li>English</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Soft Skills</h2>
+            <ol>
+                <li>User Research</li>
+                <li>Problem Solving</li>
+                <li>Leadership</li>
+                <li>Time management</li>
+            </ol>
+        </section>
+    </div>
+
+    <div class="flex-item">
+        <section>
+            <h2>About me</h2>
+            <hr color="800080">
+            <p>As a Computer Science student, I like challenges
+            and I have excellent planning and teamwork
+            skills. In addition, I am highly motivated to learn
+            new things, I am very passionate about what I do,
+            I am able to adapt to any circumstance and
+            always give my best in any project.</p>
+        </section>
+    
+        <section>
+            <h2>Education</h2>
+            <hr color="800080">
+            <b><p>2020-Currently attending</p></b>
             <p>Escuela Superior Politecnica del Litoral</p>
             <p>Computer Science Student</p>
-            <li>2013-2020</li>
+            <b><p>2013-2020</p></b>
             <p>Unidad Educativa Nuestra Madre de la Merced</p>
             <p>Unified General Baccalaureate</p>
-        </ul>
-    </section>
+        </section>         
 
-    <section>
-        <h2>Technical Skills</h2>
-        <p>Programming Languages: Java, Python, C</p>
-        <p>Operating Systems: Windows, macOS, Linux</p>
-        <p>Databases: MySQL</p>
-    
-    </section>
+        <section>
+            <h2>Experience</h2>
+            <hr color="800080">
+            <p>2023</p>
+            <p>Investigation Assistant</p>  
+            <p>2022</p>
+            <p>HCI Teachin Assistant</p>  
+            <p>2021</p>
+            <p>Pyweekend Finalist</p>      
+        </section>
 
-    <section>
-        <h2>Soft Skills</h2>
-        <ol>
-            <li>User Research</li>
-            <li>Problem Solving</li>
-            <li>Leadership</li>
-            <li>Time management</li>
-        </ol>
-    </section>
-
-    <div>
-        <h2>Awards</h2>
-        <span>
+        <section>
+            <h2>Awards</h2>
+            <hr color="800080">
+            <span>
             <p>2023</p>
             <p>Student Design Competition CHI2023</p>
-            <p>First Place</p>
-            
-        </span>
+            <p>First Place</p>    
+            </span>    
+        </section>
+
     </div>
-    
-     <div>
-        <a href="https://www.linkedin.com/in/meiyin-chang-592856269/">Visit my profile</a>
-    </div>
-    
-    <div>
    
+    <div class="flex-item">
+        <h2>Student Design Competition CHI2023</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-SuQMUtdtXE" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-    
-    <section>
-        <h2>Contact me</h2>
-        <form id="formulario">
-        <label for="nombrescompletos">Nombres completos:</label> 
-        <input type="text" id="nombrescompletos" name="nombrescompletos" required="required" />
-        <br>    
-        <label for="correoelectronico">Correo electrónico:</label> 
-        <input type="email" id="correoelectronico" name="correoelectronico" required="required" />
-        <br>
-        <label>Género:</label>
-        <br>
-        <input type="radio" id="femenino" name="genero" value="femenino">
-        <label for="femenino">Femenino</label>
-        <input type="radio" id="masculino" name="genero" value="masculino">
-        <label for="masculino">Masculino</label>
-        <input type="radio" id="noresponder" name="genero" value="noresponder" checked="checked">
-        <label for="noresponder">Prefiero no responder</label>
-        <br>
-        <label for="mensaje">Mensaje:</label> <textarea id="mensaje" name="mensaje" rows="8" cols="40"></textarea>
-        <br>
-        <input type="checkbox" id="nosoyunrobot" value="nosoyunrobot"> <label for="nosoyunrobot">No soy un robot</label>
-        <br>
-        <button type="submit" name="enviar">Enviar</button> <button type="reset" name="reiniciar">Cancelar</button>
-        <br>    
-      </form>
-            
-    </section>
-    
+
+    <div class="flex-item">
+        <section id="address">
+        <h2>Address<h2> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2819.1713134208585!2d-79.88171813344015!3d-2.187689675137704!2m3!1f0!2f
+            0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1684784443965!5m2!1ses!2sec"
+             width="560" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </div>
+
+    <div class="flex-item full-width">
+        <section id="toknowyou">
+            <h2>To know about you</h2>
+            <form id="forms">
+            <label for="fullname">Full name:</label> 
+            <input type="text" id="fullname" name="fullname" required="required" />
+            <br>    
+            <label for="mail">E mail:</label> 
+            <input type="email" id="mail" name="mail" required="required" />
+            <br>
+            <label>Genre:</label>
+            <br>
+            <input type="radio" id="female" name="genero" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="masculine" name="genero" value="masculine">
+            <label for="masculine">Masculine</label>
+            <input type="radio" id="noanswer" name="genero" value="noanswer" checked="checked">
+            <label for="noanswer">Prefer not to answer</label>
+            <br>
+            <label for="message">Message:</label> <textarea id="message" name="message" rows="8" cols="40"></textarea>
+            <br>
+            <input type="checkbox" id="notarobot" value="notarobot"> <label for="notarobot">I am not a robot</label>
+            <br>
+            <button type="submit" name="send">Send</button> <button type="reset" name="cancel">Cancel</button>
+            <br>    
+          </form>
+                
+        </section>
+    </div>
+
     <div>
-        <h2>Help for you to know how to do a CV</h2>
-    <iframe width="300" height="200" src="https://www.youtube.com/embed/_fP43gcBywU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen ></iframe>
+     <section>
+        <nav>
+            <h2>Find me</h2>
+            <a href="https://www.linkedin.com/in/meiyin-chang-592856269/">Visit my profile in Linkedin</a>
+          </nav>
+    </section>
     </div>
-    
-    <b>Address</b> 
-        <br>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2819.1713134208585!2d-79.88171813344015!3d-2.187689675137704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sec!4v1684784443965!5m2!1ses!2sec" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </main>
     <footer>
     <p>Copyright &copy; 2023
     </footer>
 
-</main>    
+</main>
+</div>    
 </body>
 </html>
