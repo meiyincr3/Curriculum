@@ -1,31 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Quando&display=swap');
 
+html, body {
+    height: 100%;
+    margin: 2rem 2rem 2rem 2rem;
+  }
 
 * {
-    font-family: 'Lora', serif;
-    background-color: white;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-family: Georgia, serif;
+  font-family: 'Open Sans', sans-serif;
 }
-    
+
 h2 {
-    font-family: Times New Roman, serif;
+font-family: 'Open Sans', sans-serif;
 }
-  
+
 a {
-    text-decoration: none;
-    font-size: 1.2rem;
+text-decoration: none;
+font-size: 1.2rem;
 }
 
 .image{
-    border: 1pt solid black;
-    padding: 1.1rem;
-    margin-top: 10px;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-bottom: 2px;
+border: 1pt solid black;
+padding: 1.1rem;
+margin-top: 1rem;
+margin-left: 5rem;
+margin-bottom: 1rem;
+justify-content: center;
 }
-        
+
+main{
+display: flex;
+flex-wrap: wrap; 
+}
+
+form input,
+form select,
+form textarea {
+  margin-bottom: 0.5rem; /* Espacio inferior entre elementos de entrada (input), selección (select) y área de texto (textarea) */
+}
+    
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center; /* Alineación vertical de los elementos */
+    justify-content: center;
+  }
+  
+  .flex-item {
+    box-sizing: border-box;
+  }
+  
+  .col1 {
+    flex-basis: 20%;
+  }
+  
+  .col2 {
+    flex-basis: 20%;
+    background-color:#001a4d;
+
+  }
+
+  .col3 {
+    flex-basis: 60%;
+    background-color:#001a4d;
+    color:white
+  }
+
+.flex-item:nth-child(4) {
+    flex-basis: 30%;
+    margin: 0rem 1rem;
+    padding: 2%;
+    background-color: #990073;
+    color:white
+}
+
+.flex-item:nth-child(5) {
+  flex-basis: 60%;
+  margin: 0rem 1rem;
+  padding: 2%;
+}
+
+.flex-item:nth-child(6),
+.flex-item:nth-child(7) {
+  flex-basis: 48%;
+  margin: 0.5rem 0.5rem;
+  padding: 2%;
+  align-items: center;
+}
+
+  
+.flex-item.full-width {
+    flex-basis: 100%;
+    margin: 0.5rem 0.5rem;
+  }
+  
 
