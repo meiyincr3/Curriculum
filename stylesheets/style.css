@@ -174,10 +174,6 @@ form textarea {
 
 @media (max-width:768px){
 
-  #menu-btn{
-    display: inline-block;
-    transition: .2s linear;
- }
 
 }
 
