@@ -34,25 +34,8 @@ table {
   border-spacing: 1rem; /* Ajusta este valor según el espaciado deseado */
 }
 
-.header{
-  position: sticky;
-  top:0; left: 0; right:0;
-  background-color: var(--white);
-  box-shadow: var(--box-shadow);
-  z-index: 1000;
-}
 
-.header .flex{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  padding:1.5rem 2rem;
-}
 
-.header .flex .logo img{
-  height: 4.5rem;
-}
 
 .header .flex .navbar a{
   margin-left: 2rem;
@@ -60,17 +43,6 @@ table {
   color:var(--black);
 }
 
-.header .flex .navbar a:hover{
-  text-decoration: underline;
-  color:var(--main-color);
-}
-
-#menu-btn{
-  display: none;
-  font-size: 2.5rem;
-  color:var(--black);
-  cursor: pointer;
-}
 
 .image{
 border: 1pt solid black;
@@ -79,6 +51,13 @@ margin-top: 1rem;
 margin-left: 5rem;
 margin-bottom: 1rem;
 justify-content: center;
+width: 300px;
+
+   /* padding: 0rem;
+    margin-top: 10px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 2px;*/
 }
 
 main{
